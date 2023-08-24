@@ -30,3 +30,8 @@ public class Program16 {
 
 }
 //WAP to calculate the frequency of an array element
+//step-1 --> take an input and store all the elements in array using first for loop
+//step-2 --> take an input key from user to find
+//step-3 --> In second for loop check the current element is equal to the key
+//step-4 --> If key match with current element increment the count until loop ends
+//step-5 --> print msg
