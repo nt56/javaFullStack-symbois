@@ -46,4 +46,4 @@ public class Program22 {
     }
 
 }
-//WAP for print 2D array by User Input
+//WAP for print diagonal of sum in 2D array by User Input
