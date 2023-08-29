@@ -2,13 +2,10 @@ import java.util.Scanner;
 
 public class Program29 {
 
-    int a,b;
-    Program29(){    //default constructor
-        a = 5;
-        b = 5;
+    int a=5,b=5,sum;
 
-        int sum = a + b;
-        System.out.println("Addition Using Constructor : "+sum);
+    Program29(){    //default constructor
+        sum = a + b;
     }
 
     void input(){
@@ -20,13 +17,14 @@ public class Program29 {
     }
 
     void display(){
-        int result = a + b;
-        System.out.println("Addition Using Method : "+result);
+        int sum = a + b;
+        System.out.println("Addition : "+sum);
     }
 
     public static void main (String[] args){
 
         Program29 p29 = new Program29();
+        p29.display();
         p29.input();
         p29.display();
 
